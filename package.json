@@ -1,0 +1,6 @@
+{
+	"name": "qiankun-boilerplate",
+	"dependencies": {
+		"lerna": "^6.5.1"
+	}
+}
