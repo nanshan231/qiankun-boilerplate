@@ -3,7 +3,7 @@
 
 
 - 当前demo的配置
-- [ ] main, sub-app-x, components均使用react
+- [x] main, sub-app-x, components均使用react
 - [ ] 使用monorepo，使用lerna, nx, pnpm
 - [ ] 共用一套lint配置
 - [ ] 添加一个fake server
