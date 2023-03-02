@@ -23,13 +23,13 @@ root.render(
 registerMicroApps([
   {
     name: 'sub-app-1',
-    entry: '//localhost:3000',
+    entry: '//localhost:3001',
     container: '#container',
     activeRule: '/sub-app-1',
   },
   {
     name: 'sub-app-2',
-    entry: '//localhost:3001',
+    entry: '//localhost:3002',
     container: '#container',
     activeRule: '/sub-app-2',
   }
