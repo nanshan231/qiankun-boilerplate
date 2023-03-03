@@ -1,19 +1,15 @@
+import { useNavigate } from "react-router-dom";
+
 function App() {
+  const navigate = useNavigate();
+  const goToSubApp = (path) => {
+    navigate(path);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-links"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button onClick={() => goToSubApp('/sub-app-1')}>sub app 1</button>
+      <button onClick={() => goToSubApp('/sub-app-2')}>sub app 2</button>
+      <div id='container'></div>
     </div>
   );
 }

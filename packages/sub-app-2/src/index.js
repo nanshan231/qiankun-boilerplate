@@ -7,7 +7,7 @@ import {
 import router from './router';
 
 let root;
-const rootId = 'sub-app1-root';
+const rootId = 'sub-app2-root';
 
 function render(props) {
   const { container } = props;
