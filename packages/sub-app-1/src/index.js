@@ -10,6 +10,7 @@ let root;
 const rootId = 'sub-app1-root';
 
 function render(props) {
+  console.log('-----props-----', props)
   const { container } = props;
   root = createRoot(container ? container.querySelector(`#${rootId}`) : document.querySelector(`#${rootId}`));
   root.render(<RouterProvider router={router} />);
